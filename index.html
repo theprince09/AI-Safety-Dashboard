@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Safety Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🤖 AI Safety Dashboard</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#report">Report Incident</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <input type="text" class="search-box" placeholder="Search...">
+            <button class="search-btn">Search</button>
+        </div>
+    </nav>
+    
+    <div class="content-container">
+        <div class="report-form">
+            <h2>Report New Incident</h2>
+            <form id="incident-form">
+                <input type="text" id="title" placeholder="Title" required />
+                <textarea id="description" placeholder="Description" required></textarea>
+                <select id="severity" required>
+                    <option value="">Severity</option>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+                <button type="submit">Report Incident</button>
+            </form>
+        </div>
+        
+        
+    </div>
+    <div class="content-container2">
+    <div id="incident-list">
+        <h2>AI Safety Incidents</h2>
+        <div class="filter-sort">
+            <label for="filter-severity">Filter by Severity:</label>
+            <select id="filter-severity">
+                <option value="">All</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+        
+            <label for="sort-date">Sort by Date:</label>
+            <select id="sort-date">
+                <option value="newest">Newest First</option>
+                <option value="oldest">Oldest First</option>
+            </select>
+        </div>
+        
+        <div id="incident-list-container"></div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

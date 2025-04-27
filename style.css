@@ -1,0 +1,218 @@
+body {
+  background-image: url('/cyborg-hand-3d-background-technology-artificial-intelligence_53876-129787.avif');
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff; 
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00b894;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-box {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.search-btn {
+  background: #00b894;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 50px;
+  transition: background 0.3s;
+  margin-bottom: 10px;
+}
+
+.search-btn:hover {
+  background: #00997a;
+}
+
+
+
+.content-container {
+  margin-top: 150px;
+  width: 90%;
+  max-width: 500px; 
+  height: auto; 
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 207, 207, 0.1); 
+  background-color: rgba(86, 176, 255, 0.1);
+  padding: 30px 20px;
+  border-radius: 20px;
+  color: rgb(86, 176, 255);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow-y: auto; 
+  margin-right: 50px;
+}
+
+.content-container2 {
+  text-align: center;
+  margin-top: 50px;
+  width: 90%;
+  max-width: 800px; 
+  height: auto; 
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 207, 207, 0.1); 
+  background-color: rgba(86, 176, 255, 0.1);
+  padding: 30px 20px;
+  border-radius: 20px;
+  color: rgb(86, 176, 255);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow-y: auto; 
+  margin-right: 50px;
+}
+label, select, input, textarea, button {
+  margin-left: 10px;
+  display: block;
+  width: 90%;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input, textarea, select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(0, 0, 0);
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border: 1px solid #f0de57;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+.incident {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.incident h3 {
+  color: #ffb253;
+}
+
+.incident p {
+  font-size: 14px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      padding: 15px 10px;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .content-container {
+      width: 95%;
+      margin-top: 100px; 
+  }
+}
+
+button {
+  background-color: #00997a;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #007e63;
+}
+
+.filter-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-sort label,
+.filter-sort select {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.filter-sort select {
+  width: 150px; 
+}
+
+.description {
+  margin-top: 10px;
+  color: #ddd;
+  font-size: 14px;
+}
