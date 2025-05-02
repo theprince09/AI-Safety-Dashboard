@@ -1,5 +1,8 @@
-# -AI-Safety-Dashboard
-![Screenshot 2025-04-27 192719](https://github.com/user-attachments/assets/169f7f27-175f-41c0-a24d-ad3db9aea7c7)
+# -AI-Safety-Dashboard!
+
+[Screenshot 2025-04-27 192719](https://github.com/user-attachments/assets/2c52426f-269a-4f60-8cbe-871fddbf377a)
+
+
 
 
 AI Safety Dashboard
